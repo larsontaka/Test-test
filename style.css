@@ -1,0 +1,25 @@
+.header {
+    grid-area: header;
+    background-color: organge;
+    color:black;
+}
+.conent {
+    grid-area: content;
+
+}
+.course-work span{
+    font font-weight: bold;
+
+}
+.foot {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+}
+/* these applies  to medium sized screen*/
+@media screen and (mini-width:601px)
+H1 {
+    text-align:center;
+    
+}
+h3
